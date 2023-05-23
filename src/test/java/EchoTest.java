@@ -9,7 +9,7 @@ public class EchoTest {
     public void test() {
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some date")
+                .body("some data")
 
                 .when()
                 .post("/post")
